@@ -1,6 +1,20 @@
 # FORENSIQ
 ### NLP-Based Digital Forensic Investigation and Temporal Query System
 
+<p align="center">
+  <img src="screenshots/hero_banner.png" alt="FORENSIQ Enterprise Digital Forensics Hero Banner" width="100%" style="border-radius: 8px;">
+</p>
+
+<p align="center">
+  <a href="#overview">Overview</a> •
+  <a href="#platform-interface--output-screenshots">Platform Interface</a> •
+  <a href="#core-innovation">Core Innovation</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#system-architecture">System Architecture</a> •
+  <a href="#installation--setup">Installation</a> •
+  <a href="#live-evaluator-demo-script">Demo Script</a>
+</p>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
@@ -15,6 +29,53 @@
 **FORENSIQ** is a digital forensic investigation intelligence platform that enables cybersecurity investigators, incident responders, and forensic auditors to query complex, heterogeneous forensic event data using plain English natural language.
 
 Traditional digital forensics forces analysts to write complex SQL statements, master disparate log schemas, and calculate time deltas manually. FORENSIQ eliminates this barrier by transforming natural language questions into deterministic, structured forensic queries, dynamically discovering landmark reference events, applying temporal interval filtering, and providing auditable, step-by-step explainability for all retrieved evidence.
+
+---
+
+## Platform Interface & Output Screenshots
+
+### 1. Operational Security Dashboard
+Displays real-time event ingestion metrics across **Authentication** (3,726), **USB Devices** (3,109), and **File System** (3,728) activities, along with interactive event distribution charts and active case dossiers.
+
+<p align="center">
+  <img src="screenshots/01_dashboard.png" alt="FORENSIQ Operational Security Dashboard" width="100%" style="border-radius: 8px; border: 1px solid #1f293d;">
+</p>
+
+---
+
+### 2. Natural Language Investigation Deck & Explainable Reasoning
+Investigators enter plain-English inquiries (e.g., *"Show me all failed login attempts before the successful login"*). FORENSIQ compiles the inquiry into a transparent **Structured Forensic Query (JSON)**, retrieves relevant events, and renders **3-Level Explainable AI (XAI)** verification checkmarks (Entity Match, Temporal Precedence, Status Verification, Evidence Relevance: 95%).
+
+<p align="center">
+  <img src="screenshots/02_investigate_query.png" alt="FORENSIQ Investigation Deck and Structured Query" width="100%" style="border-radius: 8px; border: 1px solid #1f293d;">
+</p>
+
+---
+
+### 3. Chronological Forensic Timeline Reconstruction
+Reconstructs the precise temporal progression of events with relative delta offsets from landmark anchors (e.g., `-45s` Failed Login, `-23s` Failed Login, `0.0s` Landmark Anchor Successful Login, `+35s` USB Connected, `+55s` File Copy), featuring category filtering and a cryptographic hash inspector.
+
+<p align="center">
+  <img src="screenshots/03_temporal_timeline.png" alt="FORENSIQ Chronological Forensic Timeline" width="100%" style="border-radius: 8px; border: 1px solid #1f293d;">
+</p>
+
+---
+
+### 4. USB Removable Media & Exfiltration Telemetry Deck
+Controlled simulation and monitoring sandbox analyzing peripheral insertion (`SanDisk Ultra 64GB USB 3.0`), sensitive document read operations (`Financial_Report.xlsx`, `Employee_Data.csv`), transfer byte rates, and removal events without exposing confidential host data.
+
+<p align="center">
+  <img src="screenshots/04_usb_investigation.png" alt="FORENSIQ USB Exfiltration Simulator" width="100%" style="border-radius: 8px; border: 1px solid #1f293d;">
+</p>
+
+---
+
+### 5. Confidential Digital Forensics Dossier & Incident Report
+Generates formal, objective, court- and audit-ready investigation reports featuring case metadata (`CASE-2026-001`), investigator credentials, query translation, cryptographic evidence hashes (MD5, SHA-256), objective findings, and strict chain-of-custody verification.
+
+<p align="center">
+  <img src="screenshots/05_forensic_report.png" alt="FORENSIQ Confidential Forensic Report Modal" width="100%" style="border-radius: 8px; border: 1px solid #1f293d;">
+</p>
 
 ---
 
