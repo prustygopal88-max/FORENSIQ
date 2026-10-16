@@ -1,0 +1,11 @@
+{
+  "name": "forensiq-root",
+  "private": true,
+  "version": "1.0.0",
+  "description": "FORENSIQ - NLP-Based Digital Forensic Investigation & Temporal Query System",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview"
+  }
+}

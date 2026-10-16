@@ -1,0 +1,140 @@
+[
+  {
+    "event_id": "LANL-AUTH-88201",
+    "timestamp": "2026-09-28T09:15:22.000000Z",
+    "event_type": "authentication",
+    "user": "U1092@DOM1",
+    "machine": "C1065",
+    "source": "Public Dataset",
+    "action": "FAILED_LOGIN",
+    "status": "FAILED",
+    "device": null,
+    "file": null,
+    "metadata": {
+      "logon_type": "Network",
+      "auth_package": "Kerberos",
+      "src_computer": "C1065",
+      "dst_computer": "DC-01",
+      "dataset_origin": "LANL Comprehensive Multi-Source Cyber Security Dataset",
+      "failure_code": "0xC000006A (Bad Password)"
+    },
+    "dataset_label": "Public Dataset"
+  },
+  {
+    "event_id": "LANL-AUTH-88202",
+    "timestamp": "2026-09-28T09:15:45.000000Z",
+    "event_type": "authentication",
+    "user": "U1092@DOM1",
+    "machine": "C1065",
+    "source": "Public Dataset",
+    "action": "FAILED_LOGIN",
+    "status": "FAILED",
+    "device": null,
+    "file": null,
+    "metadata": {
+      "logon_type": "Network",
+      "auth_package": "Kerberos",
+      "src_computer": "C1065",
+      "dst_computer": "DC-01",
+      "dataset_origin": "LANL Comprehensive Multi-Source Cyber Security Dataset",
+      "failure_code": "0xC000006A (Bad Password)"
+    },
+    "dataset_label": "Public Dataset"
+  },
+  {
+    "event_id": "LANL-AUTH-88203",
+    "timestamp": "2026-09-28T09:16:10.000000Z",
+    "event_type": "authentication",
+    "user": "U1092@DOM1",
+    "machine": "C1065",
+    "source": "Public Dataset",
+    "action": "FAILED_LOGIN",
+    "status": "FAILED",
+    "device": null,
+    "file": null,
+    "metadata": {
+      "logon_type": "Network",
+      "auth_package": "Kerberos",
+      "src_computer": "C1065",
+      "dst_computer": "DC-01",
+      "dataset_origin": "LANL Comprehensive Multi-Source Cyber Security Dataset",
+      "failure_code": "0xC000006A (Bad Password)"
+    },
+    "dataset_label": "Public Dataset"
+  },
+  {
+    "event_id": "LANL-AUTH-88204",
+    "timestamp": "2026-09-28T09:16:42.000000Z",
+    "event_type": "authentication",
+    "user": "U1092@DOM1",
+    "machine": "C1065",
+    "source": "Public Dataset",
+    "action": "SUCCESSFUL_LOGIN",
+    "status": "SUCCESS",
+    "device": null,
+    "file": null,
+    "metadata": {
+      "logon_type": "Interactive",
+      "auth_package": "Kerberos",
+      "src_computer": "C1065",
+      "dst_computer": "DC-01",
+      "dataset_origin": "LANL Comprehensive Multi-Source Cyber Security Dataset",
+      "session_id": "0x7a89f"
+    },
+    "dataset_label": "Public Dataset"
+  },
+  {
+    "event_id": "LANL-PROC-88205",
+    "timestamp": "2026-09-28T09:17:15.000000Z",
+    "event_type": "system",
+    "user": "U1092@DOM1",
+    "machine": "C1065",
+    "source": "Public Dataset",
+    "action": "PROCESS_START",
+    "status": "SUCCESS",
+    "device": null,
+    "file": "powershell.exe",
+    "metadata": {
+      "parent_process": "explorer.exe",
+      "pid": 4892,
+      "command_line": "powershell.exe -ExecutionPolicy Bypass -NoProfile",
+      "dataset_origin": "LANL Comprehensive Multi-Source Cyber Security Dataset"
+    },
+    "dataset_label": "Public Dataset"
+  },
+  {
+    "event_id": "LANL-SYS-88206",
+    "timestamp": "2026-09-28T09:20:00.000000Z",
+    "event_type": "system",
+    "user": "SYSTEM",
+    "machine": "DC-01",
+    "source": "Public Dataset",
+    "action": "SERVICE_START",
+    "status": "SUCCESS",
+    "device": null,
+    "file": "auditd.exe",
+    "metadata": {
+      "service_name": "AuditLoggingDaemon",
+      "dataset_origin": "LANL Comprehensive Multi-Source Cyber Security Dataset"
+    },
+    "dataset_label": "Public Dataset"
+  },
+  {
+    "event_id": "LANL-AUTH-88207",
+    "timestamp": "2026-09-28T10:04:12.000000Z",
+    "event_type": "authentication",
+    "user": "admin_service",
+    "machine": "SERVER-09",
+    "source": "Public Dataset",
+    "action": "SUCCESSFUL_LOGIN",
+    "status": "SUCCESS",
+    "device": null,
+    "file": null,
+    "metadata": {
+      "logon_type": "Service",
+      "auth_package": "NTLM",
+      "dataset_origin": "LANL Comprehensive Multi-Source Cyber Security Dataset"
+    },
+    "dataset_label": "Public Dataset"
+  }
+]
